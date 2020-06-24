@@ -1,0 +1,93 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "score",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 1,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -70.544,
+            204.894,
+            0
+          ]
+        },
+        {
+          "frame": 0.3333333333333333,
+          "value": [
+            -238.763,
+            294.43,
+            0
+          ]
+        },
+        {
+          "frame": 0.6666666666666666,
+          "value": [
+            -238.763,
+            294.43,
+            0
+          ],
+          "curve": [
+            0.6,
+            -0.27,
+            0.73,
+            0.04
+          ]
+        },
+        {
+          "frame": 1,
+          "value": [
+            -374.423,
+            337.841,
+            0
+          ]
+        }
+      ],
+      "opacity": [
+        {
+          "frame": 0.8333333333333334,
+          "value": 255
+        },
+        {
+          "frame": 1,
+          "value": 150
+        }
+      ]
+    },
+    "comps": {
+      "cc.Label": {
+        "fontSize": [
+          {
+            "frame": 0,
+            "value": 20
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": 60
+          },
+          {
+            "frame": 0.8333333333333334,
+            "value": 60
+          },
+          {
+            "frame": 1,
+            "value": 20
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 1,
+      "func": "onScoreAnimationEnd",
+      "params": []
+    }
+  ]
+}
